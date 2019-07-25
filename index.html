@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="login-page">
+            <div class="form">
+                <form action="" class="register-form">
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="password">
+                    <input type="text" placeholder="email">
+                    <button type="button" onclick="getInfo()">Create</button>
+                    <p class="message">Already registered? <a href="#">Log in</a> </p>
+                </form>
+
+                <form action="" class="login-form">
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="password">
+                    <button type="button" onclick="getInfo()">Log in</button>
+                    <p class="message">Not registered? <a href="#">Register</a> </p>
+                </form>
+            </div>
+        </div>
+        </br>
+    </section>
+    <section>
+        <div id="toDO" class="header">
+            <h1>My To Do List</h1>
+            <input type="text" id="myInput" placeholder="My task is...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        <ul id="myUL">
+            <li>Add new task</li>
+            <li>Delete task</li>
+        </ul>
+    </section>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
